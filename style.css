@@ -1,0 +1,48 @@
+body{
+    background-color: pink;
+    font-family: 'Niconne', cursive;
+}
+.heading{
+    font-size: xx-large;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 25px orangered;
+}
+.note{
+    font-size: medium;    
+}
+.copyrightFooter{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    color: #ff006d;
+    background-color: #ffc2dc;
+    box-shadow: -2px -15px 25px  #7b2eff;
+}
+canvas{
+    border: 5px solid orchid ;
+    border-radius: 20px;
+    
+    animation-name:example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+video{
+    border-radius: 20px ;
+    animation-name:example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%{box-shadow: 1px 1px 30px pink }
+    20%{box-shadow: 1px 1px 30px orange}
+    40%{box-shadow: 1px 1px 30px yellow}
+    60%{box-shadow: 1px 1px 30px green}
+    80%{box-shadow: 1px 1px 30px blue}
+    100%{box-shadow: 1px 1px 30px purple}
+
+}
